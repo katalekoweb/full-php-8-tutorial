@@ -7,27 +7,27 @@ error_reporting(E_ALL);
 /* Data types & Type Casting */
 
 # 4 Scalar Types
-# bool - true/false 
-$completed = true;
-# int - 1,2,3,4,5, -5 (no decimal)
-$score = 75;
-# float - 1.5, 3.7,1.5
-$price = 0.99;
-# string - "Kata", "Lisa"
-$greeting = "Hello Lisa";
+    # bool - true/false 
+    $completed = true;
+    # int - 1,2,3,4,5, -5 (no decimal)
+    $score = 75;
+    # float - 1.5, 3.7,1.5
+    $price = 0.99;
+    # string - "Kata", "Lisa"
+    $greeting = "Hello Lisa";
 
-echo $completed . "<br/>";
-echo $score . "<br/>";
-echo $price . "<br/>";
-echo $greeting . "<br/>";
-echo "<br/>";
-echo gettype($completed) . "<br/>";
-echo gettype($score) . "<br/>";
-echo gettype($price) . "<br/>";
-echo gettype($greeting) . "<br/>";
-echo "<br/>";
-// var_dump($completed);
-echo "<br/>";
+    echo $completed . "<br/>";
+    echo $score . "<br/>";
+    echo $price . "<br/>";
+    echo $greeting . "<br/>";
+    echo "<br/>";
+    echo gettype($completed) . "<br/>";
+    echo gettype($score) . "<br/>";
+    echo gettype($price) . "<br/>";
+    echo gettype($greeting) . "<br/>";
+    echo "<br/>";
+    // var_dump($completed);
+    echo "<br/>";
 
 # 4 Compound Types
     # array
